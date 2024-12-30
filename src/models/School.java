@@ -1,8 +1,10 @@
+package models;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-class School {
+public class School {
     private List<Person> members;
 
     public School() {

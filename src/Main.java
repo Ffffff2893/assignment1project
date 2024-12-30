@@ -1,3 +1,7 @@
+import models.School;
+import models.Student;
+import models.Teacher;
+
 public class Main {
     public static void main(String[] args) {
         Student student1 = new Student("Alice", "Smith", 20, false);
@@ -11,7 +15,7 @@ public class Main {
         student2.addGrade(78);
         student2.addGrade(82);
 
-        if (teacher1.yearsOfExperience > 10) {
+        if (teacher1.getYearsOfExperience() > 10) {
             teacher1.giveRaise(10);
         }
 

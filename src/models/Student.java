@@ -1,11 +1,11 @@
-
+package models;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 
-class Student extends Person {
+public class Student extends Person {
     private int studentID;
     private List<Integer> grades;
 
